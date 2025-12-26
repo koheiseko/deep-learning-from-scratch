@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "e>=1.4.5",
     "numpy>=2.4.0",
 ]
 
@@ -19,4 +20,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.target.wheel]
-packges = ["src"]
+packages = ["src"]
